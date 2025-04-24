@@ -75,8 +75,8 @@ public class PIMModule {
     Thread.sleep(1000);
     driver.findElement(By.name("lastName")).sendKeys("XYZ");
     Thread.sleep(1000);
-    driver.findElement(By.xpath("(//input[@class='oxd-input oxd-input--active'])[2]")).sendKeys("666");
-    Thread.sleep(1000);
+//    driver.findElement(By.xpath("(//input[@class='oxd-input oxd-input--active'])[2]")).sendKeys("666");
+//    Thread.sleep(1000);
     driver.findElement(By.xpath("//button[@type='submit']")).click();
     Thread.sleep(2000);
     driver.findElement(By.linkText("Employee List")).click();
